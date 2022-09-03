@@ -8,8 +8,8 @@ A tool that converts a folder of images into a single magickavoxel .vox file.
 
   ```
   python3 -m virtualenv venv
-  source /venv/scripts/activate.bat // Windows
-  source /venv/bin/activate // Mac/Linux
+  source ./venv/Scripts/activate    // Windows
+  source ./venv/bin/activate         // Mac/Linux
   pip install -r requirements.txt
   ```
 
