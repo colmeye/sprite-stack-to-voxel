@@ -7,7 +7,7 @@ A tool that converts a folder of images into a single magickavoxel .vox file.
 1. Create virtual environment and install requirements.
 
   ```
-  python3 -m virtualenv venv
+  python -m virtualenv venv
   source ./venv/Scripts/activate    // Windows
   source ./venv/bin/activate         // Mac/Linux
   pip install -r requirements.txt
@@ -16,7 +16,7 @@ A tool that converts a folder of images into a single magickavoxel .vox file.
 2. Install setup.py for vox tools.
 
   ```
-  python3 setup.py install
+  python setup.py install
   ```
 
 3. Add folders with images into the `/stacks` directory.
@@ -24,5 +24,5 @@ A tool that converts a folder of images into a single magickavoxel .vox file.
 4. Run `convert-stack-to-vox.py`, providing the name of a folder in the `/stacks` directory as an argument. Output will be found in the `/vox` directory
 
   ```
-  python3 convert-stack-to-vox.py -n folder-name
+  python convert-stack-to-vox.py -n folder-name
   ```
