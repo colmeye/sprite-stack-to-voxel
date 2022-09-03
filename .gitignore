@@ -1,0 +1,11 @@
+*~
+*pyc
+__pycache__
+.idea
+*.egg-info
+
+/build
+/venv
+/dist
+/vox/*.vox
+/stacks/**/
